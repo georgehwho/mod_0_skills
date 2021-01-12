@@ -1,14 +1,13 @@
-canto_cooking
+George
 
 attributes:
-is_open = true
-max_capacity = 20
-cuisine_served = 'Cantonese Cuisine'
-menu = { noodles: 'beef chowfoon', rice: 'egg fried rice', pork: 'char siu pork'}
-name = 'Ho's Chinese'
+is_working = false
+name = 'George'
+hourly_wage = 7.25
+position = 'Noodle Smith'
 
 methods:
-open_shop => is_open = true
-expand_store(5) => max_capacity = 25
-eighty_six(:pork) => menu = { noodles: 'beef chowfoon', rice: 'egg fried rice'}
-rebrand('best_chinese') => name = 'best_chinese'
+clock in => is_working = true
+pay_raise(3.00) => hourly_wage = 10.25
+promotion('Manager', 15.25) => position = 'Manager' AND hourly_wage = 15.25
+name_change('Georgie') => name = 'Georgie'
