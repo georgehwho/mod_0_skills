@@ -1,0 +1,14 @@
+canto_cooking
+
+attributes:
+is_open = true
+max_capacity = 20
+cuisine_served = 'Cantonese Cuisine'
+menu = { noodles: 'beef chowfoon', rice: 'egg fried rice', pork: 'char siu pork'}
+name = 'Ho's Chinese'
+
+methods:
+open_shop => is_open = true
+expand_store(5) => max_capacity = 25
+eighty_six(:pork) => menu = { noodles: 'beef chowfoon', rice: 'egg fried rice'}
+rebrand('best_chinese') => name = 'best_chinese'
