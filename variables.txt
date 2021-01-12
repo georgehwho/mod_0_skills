@@ -1,0 +1,9 @@
+food = 'banana'
+is_delicious = true
+food = 'apple'
+num2 = 4
+num7 = 14
+quotient = num7 / num2
+songs = ['Night Changes', 'Lay Me Down', 'No Role Modelz']
+songs.shift
+food.size
