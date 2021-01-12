@@ -1,0 +1,14 @@
+class Restaurant
+
+attributes:
+is_open => boolean
+max_capacity => integer
+cuisine_served  => string
+menu => hash
+name => string
+
+methods:
+open_shop => (updates is_open to true)
+expand_store(arg1) => (increases max_capacity by whatever is in the ())
+eighty_six(key['value']) => (removes a food key from menu)
+rebrand('arg1') => (updates name to new name)
