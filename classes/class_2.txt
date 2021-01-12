@@ -1,0 +1,14 @@
+class Chair
+
+attributes:
+brand = string
+chair_legs = integer
+is_occupied = boolean
+color = string
+height = float
+
+methods:
+break_leg = (removes one leg from a chair_legs)
+clear_seat = (updates is_occupied to false)
+paint_job('arg1') = (updates color to arg1)
+shorten(arg1) = (updates the height of the chair)
