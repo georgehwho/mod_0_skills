@@ -1,4 +1,4 @@
-class Restaurant
+class Store
 
 attributes:
 is_open => boolean
@@ -10,5 +10,5 @@ name => string
 methods:
 open_shop => (updates is_open to true)
 expand_store(arg1) => (increases max_capacity by whatever is in the ())
-eighty_six(key['value']) => (removes a food key from menu)
+eighty_six(:key) => (removes a food key from menu)
 rebrand('arg1') => (updates name to new name)
