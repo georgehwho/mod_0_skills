@@ -1,0 +1,14 @@
+bar_stool
+
+attributes:
+brand = 'west elm'
+chair_legs = 4
+is_occupied = false
+color = 'brown'
+height = 3.5
+
+methods:
+break_leg => chair_legs = 3
+clear_seat => is_occupied = false
+paint_job('black') => color = 'black'
+shorten(1.1) => height = 2.4
